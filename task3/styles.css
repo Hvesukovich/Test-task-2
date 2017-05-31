@@ -1,0 +1,279 @@
+html, body{
+    margin: 0;
+}
+
+.header-layout{
+    position: relative;
+}
+
+header{
+    height: 70px;
+    background-color: aliceblue;
+    padding: 15px 15px 15px 165px;
+}
+
+header>.name{
+    float: left;
+}
+
+header>.name>.logo-name{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+header>.name>.slogan{
+    font-size: 16px;
+}
+
+header>.header-contacts{
+    float: right;
+}
+header>.header-contacts>.img-phone{
+    float: left;
+}
+header>.header-contacts>.phone-and-phrase{
+    margin-left: 15px;
+    float: left;
+}
+header>.header-contacts>.phone-and-phrase>.phone{
+    font-weight: bold;
+    font-size: 28px;
+    float: left;
+}
+header>.header-contacts>.phone-and-phrase>.phrase{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.menu{
+    display: table;
+    padding: 10px 150px;
+    background-color: darkorange;
+}
+
+.menu>div{
+    position: relative;
+    float: left;
+    padding: 3px 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.menu>div:hover>.sub-menu{
+    display: block;
+}
+
+.menu .sub-menu{
+    position: absolute;
+    top: 28px;
+    background-color: cornflowerblue;
+    z-index: 1;
+    display: none;
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 100%;
+    width: 140px;
+    background-color: #0069b3;
+}
+
+.logo>.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: bisque;
+
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.content{
+    padding: 20px 5px 0 5px;
+    position: absolute;
+    height: 100%;
+}
+
+.content>.gallery{
+    border: 2px solid silver;
+    width: 270px;
+    height:360px;
+    position: absolute;
+    float: left;
+}
+
+.content>.gallery>.img-gallery{
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.content>.gallery>.img-gallery-list{
+    width: 270px;
+    max-height: 74px;
+    position: absolute;
+    bottom: 10px;
+    overflow: auto;
+}
+
+.content>.gallery>.img-gallery-list>.img{
+    float: left;
+    border: 2px solid silver;
+    margin: 0 5px 0 5px;
+}
+
+.content>.block-info{
+    /*width: 100%;*/
+    float: left;
+    margin-top: -20px;
+    margin-left: 290px;
+    /*border: 2px solid silver;*/
+}
+
+.content>.block-info>.price-block{
+    /*width: 100%;*/
+    height: 68px;
+    background: silver;
+    float: left;
+    /*padding: 20px 0 20px 10px;*/
+}
+
+.content>.block-info>.price-block>.price{
+    margin: 21px 0 0 20px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content>.block-info>.block-btn-price{
+    float: right;
+}
+.content>.block-info>.block-btn-price>.btn-price{
+    height: 68px;
+    border-radius: 8px;
+    font-size: 32px;
+    color: white;
+    background: #016fba;
+    font-weight: bold;
+    width: 176px;
+    cursor: pointer;
+}
+
+.content>.block-info>.block-description{
+    float: left;
+}
+
+.content>.block-info>.block-description>.model-c-s{
+    width: 340px;
+    padding-top: 20px;
+    float: left;
+}
+.content>.block-info>.block-description>.model-c-s>.model-colors{
+    border: 2px solid silver;
+    padding: 10px 0 10px 0;
+    overflow: auto;
+}
+
+.content>.block-info>.block-description>.model-c-s>.model-colors>.model-colors-img{
+    margin: 0 10px 0 10px;
+}
+.z{
+    font-weight: bold;
+    font-size: 16px;
+}
+.center-text{
+    text-align: center;
+}
+
+.content>.block-info>.block-description>.model-description{
+    float: left;
+    width: 330px;
+    margin-left: 15px;
+}
+
+.content>.full-specifications{
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.content>.full-specifications>.spec1{
+    /*border: 2px solid silver;*/
+    float: left;
+    margin-right: 40px;
+    width: 355px;
+}
+
+.content>.full-specifications>.spec2{
+    /*border: 2px solid silver;*/
+    float: left;
+    width: 355px;
+}
+
+.content>.advantages{
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.content>.advantages>.adv1{
+    float: left;
+    margin-right: 40px;
+    width: 355px;
+}
+.content>.advantages>.adv2{
+    float: left;
+    width: 355px;
+}
+
+.content>.reviews{
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    /*border: 2px solid silver;*/
+}
+
+.content>.reviews>.caption{
+
+}
+
+.content>.reviews>.review{
+    margin: 20px 0 20px 0;
+}
+
+.content>.add-review{
+    margin-top: 15px;
+    float: left;
+    padding-bottom: 30px;
+    width: 900px;
+}
+
+.name{
+    font-size: 18px;
+}
+
+.valuation{
+    margin: 20px 0 20px 0;
+}
+
+.new-review{
+    width: 100%;
+    font-size: 18px;
+}
+
+.btn-add-review{
+    font-size: 18px;
+    color: white;
+    background: #0071b8;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 190px;
+    height: 35px;
+}
