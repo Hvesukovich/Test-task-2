@@ -331,7 +331,7 @@ header>.header-contacts>.phone-and-phrase>.phrase{
     /*border: 2px solid silver;*/
 }
 .content>.full-specifications>.spec1{
-    margin-right: 2%;
+    margin-right: 3%;
     width: 48%;
     float: left;
     /*border: 2px solid silver;*/
@@ -342,7 +342,12 @@ header>.header-contacts>.phone-and-phrase>.phrase{
     margin-top: 35px;
     /*border: 2px solid silver;*/
 }
-@media screen and (max-width: 645px) {
+.content>.full-specifications>.spec1>.title{
+    font-weight: bold;
+    font-size: 16px;
+}
+/*MEDIA Full-specifications*/
+@media screen and (max-width: 719px) {
     .content>.full-specifications{
         width: 96%;
         margin: 10px 2% 0 2%;
@@ -353,11 +358,93 @@ header>.header-contacts>.phone-and-phrase>.phrase{
         float: none;
     }
 }
-@media screen and (min-width: 646px) and (max-width: 995px) {
+@media screen and (min-width: 720px) and (max-width: 995px) {
     .content>.full-specifications{
         margin: 10px 5% 0 5%;
         width: 90%;
     }
 }
+/*END MEDIA Full-specifications*/
 /*END Full-specifications*/
+
+/*Advantages*/
+.content>.advantages{
+    margin: 10px 10% 0 10%;
+    width: 80%;
+    float: left;
+}
+.content>.advantages>.adv1{
+    margin-right: 3%;
+    width: 48%;
+    float: left;
+}
+.content>.advantages>.adv2{
+    width: 48%;
+    float: left;
+}
+.all-title-advantages{
+    font-weight: bold;
+    font-size: 16px;
+}
+/*MEDIA Advantages*/
+@media screen and (max-width: 719px) {
+    .content>.advantages{
+        width: 96%;
+        margin: 10px 2% 0 2%;
+    }
+    .content>.advantages>.adv1, .content>.advantages>.adv2{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 995px) {
+    .content>.advantages{
+        margin: 10px 5% 0 5%;
+        width: 90%;
+    }
+}
+/*END MEDIA Advantages*/
+/*END Advantages*/
+
+/*Reviews*/
+.content>.reviews{
+    float: left;
+    margin-top: 10px;
+    width: 96%;
+    padding: 0 2% 10px 2%;
+}
+.content>.reviews>.review{
+    margin-top: 20px;
+}
+/*END Reviews*/
+
+/*Add review*/
+.content>.add-review{
+    float: left;
+    width: 96%;
+    padding: 0 2% 20px 2%;
+}
+
+.content>.add-review>div>.name{
+    font-size: 18px;
+}
+.content>.add-review>.valuation{
+    margin: 20px 0 20px 0;
+}
+.content>.add-review>.valuation>.stars{
+    cursor: pointer;
+}
+.content>.add-review>.new-review{
+    width: 100%;
+    font-size: 18px;
+}
+.content>.add-review>.btn-add-review{
+    font-size: 18px;
+    color: white;
+    background: #0071b8;
+    margin-top: 10px;
+    border-radius: 7px;
+    width: 190px;
+    height: 40px;
+}
+/*END Add review*/
 /*END Content*/
