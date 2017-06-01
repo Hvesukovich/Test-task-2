@@ -311,7 +311,7 @@ header>.header-contacts>.phone-and-phrase>.phrase{
         margin: 0 2% 0 2%;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 995px) {
+@media screen and (min-width: 768px) and (max-width: 999px) {
     .content>.block-mini-description{
         margin-left: 295px;
         width: 60%;
@@ -321,5 +321,43 @@ header>.header-contacts>.phone-and-phrase>.phrase{
         margin: 0 2% 0 2%;
     }
 }
+/*END MEDIA for block-mini-description and model-description*/
 /*END Description*/
+/*Full-specifications*/
+.content>.full-specifications{
+    margin: 10px 10% 0 10%;
+    width: 80%;
+    float: left;
+    /*border: 2px solid silver;*/
+}
+.content>.full-specifications>.spec1{
+    margin-right: 2%;
+    width: 48%;
+    float: left;
+    /*border: 2px solid silver;*/
+}
+.content>.full-specifications>.spec2{
+    width: 48%;
+    float: left;
+    margin-top: 35px;
+    /*border: 2px solid silver;*/
+}
+@media screen and (max-width: 645px) {
+    .content>.full-specifications{
+        width: 96%;
+        margin: 10px 2% 0 2%;
+    }
+    .content>.full-specifications>.spec1, .content>.full-specifications>.spec2{
+        width: 310px;
+        margin: auto;
+        float: none;
+    }
+}
+@media screen and (min-width: 646px) and (max-width: 995px) {
+    .content>.full-specifications{
+        margin: 10px 5% 0 5%;
+        width: 90%;
+    }
+}
+/*END Full-specifications*/
 /*END Content*/
