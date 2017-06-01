@@ -93,7 +93,7 @@ header>.header-contacts>.phone-and-phrase>.phrase{
 }
 
 .content{
-    padding: 20px 5px 0 5px;
+    padding: 20px 5px 20px 5px;
     position: absolute;
     height: 100%;
 }
@@ -251,8 +251,9 @@ header>.header-contacts>.phone-and-phrase>.phrase{
 .content>.add-review{
     margin-top: 15px;
     float: left;
-    padding-bottom: 30px;
-    width: 900px;
+    /*padding-bottom: 30px;*/
+    width: 100%;
+    padding: 0 15px 30px 15px;
 }
 
 .name{
@@ -264,7 +265,7 @@ header>.header-contacts>.phone-and-phrase>.phrase{
 }
 
 .new-review{
-    width: 100%;
+    width: 90%;
     font-size: 18px;
 }
 
