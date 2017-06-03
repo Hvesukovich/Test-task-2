@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+}
+
+.list-category-true{
+    display: block;
+}
+.list-category-false{
+    display: none;
+}
+.alert-danger-true{
+    display: block;
+}
+.alert-danger-false{
+    display: none;
+}
